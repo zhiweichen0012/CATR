@@ -102,7 +102,7 @@ bash scripts/test.sh deit_small_patch16_224_CATR_cub CUB /path/to/CATR_CUB_model
 To test the ILSVRC models, you can run:
 
 ```bash  
-bash scripts/test.sh deit_small_patch16_224_CATR_imnet CUB /path/to/LCTR_IMNET_model
+bash scripts/test.sh deit_small_patch16_224_CATR_imnet IMNET /path/to/LCTR_IMNET_model
 ```
 
 NOTE: Please check the paths to the "python" command and the dataset in the ``` scripts/test.sh ```.
