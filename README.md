@@ -86,7 +86,7 @@ bash scripts/train.sh deit_small_patch16_224_CATR_cub CUB 80 output_ckpt/CUB
 To train CATR on ILSVRC with 4 GPUs run:
 
 ```bash
-bash scripts/train.sh deit_small_patch16_224_CATR_imnet IMNET 14 output_ckpt/CUB
+bash scripts/train.sh deit_small_patch16_224_CATR_imnet IMNET 14 output_ckpt/IMNET
 ```
 
 NOTE: Please check the paths to the "torchrun" command, the dataset, and the pre-training weights in the ``` scripts/train.sh ```.
